@@ -16,7 +16,6 @@
         <div class="container">
             <div class="left-section">
                 <a href="" class="logo">
-                    <!-- <h3>sneakers</h3> -->
                     <img src="assets/images/logo.svg" alt="">
                 </a>
                 <ul class="menu">
@@ -28,15 +27,73 @@
                 </ul>
             </div>
             <div class="right-section">
-                <button class="cart">
+                <button class="cart-button">
                     <i class="ri-shopping-cart-2-line"></i>
                 </button>
                 <button class="profile-image">
                     <img src="assets/images/image-avatar.png" alt="">
                 </button>
             </div>
+            <div class="cart__container">
+                <div class="title">
+                    <h4>Cart</h4>
+                </div>
+                <div class="content">
+                    <p class="empty">Your cart is empty.</p>
+                </div>
+            </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <section class="section--left">
+                <img src="assets/images/product-2.jpg" alt="" class="main__image" loading="lazy">
+                <div class="mini__images">
+                    <img src="assets/images/product-2.jpg" alt="" loading="lazy" class="selected">
+                    <img src="assets/images/product-3.jpg" alt="" loading="lazy">
+                    <img src="assets/images/product-4.jpg" alt="" loading="lazy">
+                    <img src="assets/images/product-5.jpg" alt="" loading="lazy">
+                </div>
+            </section>
+            <section class="section--right">
+                <p class="brand">SNEAKER COMPANY</p>
+                <h2 class="title">Fall Limited Edition <br> Sneakers</h2>
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, sed dignissimos sint unde odio veritatis hic, nobis corporis saepe .</p>
+                <div class="price__section">
+                    <p class="price">$125.00</p>
+                    <span class="discount">50%</span>
+                </div>
+                <p class="before__price">$250.00</p>
+                <div class="add__section">
+                    <div class="quantity">
+                        <button>-</button>
+                        <input type="number" value="0">
+                        <button>+</button>
+                    </div>
+                    <button class="addToCart"> <i class="ri-shopping-cart-2-line"></i>Add to cart</button>
+                </div>
+                <div class="delivery">
+                    <ul>
+                        <li>
+                            <i class="ri-truck-line"></i>
+                            <p class="free-text">3-8 business days <span>free</span></p>
+                            <p>Fast delivery</p>
+                        </li>
+                        <li>
+                            <p><i class="ri-gift-line"></i>free shipping and return</p>
+                        </li>
+                        <li>
+                            <p><i class="ri-arrow-go-back-line"></i>100 days right of return</p>
+                        </li>
+                        <li>
+                            <p><i class="ri-inbox-unarchive-line"></i>Exchange possible</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
     <script src="assets/js/app.js"></script>
 </body>
 
